@@ -1,0 +1,14 @@
+[
+  {
+  "conversation_id": 1,
+  "customer_name": "Alex",
+  "messages": [
+    {"sender": "agent", "text": "Hi Alex! Welcome to VoiceUp Support. How can I help you?"},
+    {"sender": "customer", "text": "My internet keeps disconnecting and it's really frustrating!"},
+    {"sender": "agent", "text": "I'm so sorry for the inconvenience, Alex. Let me check this for you."},
+    {"sender": "customer", "text": "Thanks, I hope it gets fixed soon."},
+    {"sender": "agent", "text": "I have reset your connection. Could you please check now?"},
+    {"sender": "customer", "text": "Yes, it's working now. Thank you!"}
+  ]
+}
+]

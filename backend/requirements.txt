@@ -1,0 +1,5 @@
+django
+psycopg[binary]
+google-generativeai
+python-dotenv
+django-cors-headers

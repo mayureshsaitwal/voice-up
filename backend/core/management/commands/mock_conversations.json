@@ -1,0 +1,102 @@
+[
+  {
+    "conversation_id": 1,
+    "customer_name": "Alex",
+    "messages": [
+      {"sender": "agent", "text": "Hi Alex! Welcome to VoiceUp Support. How can I help you?"},
+      {"sender": "customer", "text": "My internet keeps disconnecting and it's really frustrating!"},
+      {"sender": "agent", "text": "I'm so sorry for the inconvenience, Alex. Let me check this for you."},
+      {"sender": "customer", "text": "Thanks, I hope it gets fixed soon."},
+      {"sender": "agent", "text": "I have reset your connection. Could you please check now?"},
+      {"sender": "customer", "text": "Yes, it's working now. Thank you!"}
+    ]
+  },
+  {
+    "conversation_id": 2,
+    "customer_name": "Priya",
+    "messages": [
+      {"sender": "agent", "text": "Hello, how can I assist you today?"},
+      {"sender": "customer", "text": "My router is showing a red light and no internet."},
+      {"sender": "agent", "text": "No worries, our routers usually fix themselves in a few minutes."},
+      {"sender": "customer", "text": "Are you sure? This has been happening for an hour."},
+      {"sender": "agent", "text": "Guaranteed it will be fine soon!"}
+    ]
+  },
+  {
+    "conversation_id": 3,
+    "customer_name": "Marcus",
+    "messages": [
+      {"sender": "agent", "text": "Hello! How can I help you today?"},
+      {"sender": "customer", "text": "My connection drops every 10 minutes and this is ridiculous."},
+      {"sender": "agent", "text": "It might be a temporary glitch. Please wait and see."},
+      {"sender": "customer", "text": "I’ve been waiting for hours. This is the third time this week!"},
+      {"sender": "agent", "text": "We’ll look into it. Goodbye."},
+      {"sender": "customer", "text": "Unbelievable. Worst support ever."}
+    ]
+  },
+  {
+    "conversation_id": 4,
+    "customer_name": "Lisa",
+    "messages": [
+      { "sender": "agent", "text": "Hi Sam! Welcome to VoiceUp Support. How can I help you?" },
+      { "sender": "customer", "text": "I’m facing issues with my billing." },
+      { "sender": "agent", "text": "I'm sorry to hear that, Sam. Let me check your account." },
+      { "sender": "customer", "text": "Thanks!" },
+      { "sender": "agent", "text": "It’s sorted now, please check your email for the corrected invoice." },
+      { "sender": "customer", "text": "Got it. Appreciate the quick help!" }
+    ]
+  },
+  {
+    "conversation_id": 5,
+    "customer_name": "Sam",
+    "messages": [
+      { "sender": "agent", "text": "Hello Lisa! What can I help you with today?" },
+      { "sender": "customer", "text": "Just wanted to know my current plan details." },
+      { "sender": "agent", "text": "Sure, you're on the Silver Plan with 200 Mbps." },
+      { "sender": "customer", "text": "Perfect, thanks a lot!" }
+    ]
+  },
+  {
+    "conversation_id": 6,
+    "customer_name": "Kevin",
+    "messages": [
+      { "sender": "agent", "text": "Hi Kevin! VoiceUp Support here. What seems to be the problem?" },
+      { "sender": "customer", "text": "I can’t access the internet since morning." },
+      { "sender": "agent", "text": "Apologies for the trouble. I've reset your router remotely." },
+      { "sender": "customer", "text": "It’s back! Thank you so much!" },
+      { "sender": "agent", "text": "Glad to help. Have a great day, Kevin!" }
+    ]
+  },
+  {
+    "conversation_id": 7,
+    "customer_name": "Anna",
+    "messages": [
+      { "sender": "agent", "text": "Hey Anna, this is Mark from VoiceUp. How may I assist you?" },
+      { "sender": "customer", "text": "Your team is awesome! Just wanted to say thanks!" },
+      { "sender": "agent", "text": "That means a lot! We're always here to help." }
+    ]
+  },
+  {
+    "conversation_id": 8,
+    "customer_name": "John",
+    "messages": [
+      { "sender": "agent", "text": "Hi John, how can I assist?" },
+      { "sender": "customer", "text": "No issue. Just needed to update my address." },
+      { "sender": "agent", "text": "Done. Your address has been updated." },
+      { "sender": "customer", "text": "Cool. Thanks." }
+    ]
+  },
+  {
+    "conversation_id": 9,
+    "customer_name": "Elena",
+    "messages": [
+      { "sender": "agent", "text": "Hello! This is VoiceUp Support." },
+      { "sender": "customer", "text": "Why do I keep getting disconnected every night??!" },
+      { "sender": "agent", "text": "We’re looking into it." },
+      { "sender": "customer", "text": "You said the same thing yesterday." },
+      { "sender": "agent", "text": "Please bear with us." },
+      { "sender": "customer", "text": "Ugh, so frustrating." }
+    ]
+  }
+]
+
