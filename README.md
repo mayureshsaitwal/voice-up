@@ -44,11 +44,17 @@ Environment Setup
 docker-compose up --build
 ```
 
+ #### IMP: 
+ After running docker run migrations and load mock_convesation 
+ and for that i have created a simple script
+
+  4. For Migrations and Loading Mock Conversations run this Script (first time only):
+  ```bash
+  docker-compose exec web /bin/bash entrypoint.sh
+  ```
+
 This will expose the following ports:
 - **Backend (API)**: `http://127.0.0.1:8000`
 - **Frontend (React)**: `http://127.0.0.1:5173`
 
-  4, For Migrations and Loading Mock Conversations run this Script (first time only):
-  ```bash
-  docker-compose exec web /bin/bash entrypoint.sh
-  ```
+  
