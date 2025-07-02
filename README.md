@@ -19,7 +19,7 @@ Clone the Repository
 1. Clone this repository to your local machine:
 
   ```bash
-   https://github.com/mayureshsaitwal/voice-up.git
+   git clone https://github.com/mayureshsaitwal/voice-up.git
    cd voice-up
   ```
 
