@@ -17,7 +17,7 @@ Clone the Repository
 1. Clone this repository to your local machine:
 
   ```bash
-   git clone https://github.com/yourusername/my-docker-project.git
+   https://github.com/mayureshsaitwal/voice-up.git
    cd voice-up
   ```
 
