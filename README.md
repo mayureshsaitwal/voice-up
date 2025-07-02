@@ -27,7 +27,7 @@ Environment Setup
 
 2. Create a `.env` file in the root of the project directory. You can use the provided `.env.example` as a template.
 ```bash
-   cp .env.example .env
+cp .env.example .env
 ```
    Fill in the necessary environment variables in the `.env` file (such as your **Postgres credentials**).
 
