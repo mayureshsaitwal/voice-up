@@ -4,6 +4,8 @@
 
 Dockerized 
 
+![Explaination](https://youtu.be/SydN6lQkFcM)
+
 ![Home](assets/images/voice1.png)
 ![Chats](assets/images/voice2.png)
 
