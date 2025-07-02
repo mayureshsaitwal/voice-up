@@ -38,7 +38,7 @@
     "conversation_id": 4,
     "customer_name": "Lisa",
     "messages": [
-      { "sender": "agent", "text": "Hi Sam! Welcome to VoiceUp Support. How can I help you?" },
+      { "sender": "agent", "text": "Hi Lisa! Welcome to VoiceUp Support. How can I help you?" },
       { "sender": "customer", "text": "I’m facing issues with my billing." },
       { "sender": "agent", "text": "I'm sorry to hear that, Sam. Let me check your account." },
       { "sender": "customer", "text": "Thanks!" },
@@ -50,7 +50,7 @@
     "conversation_id": 5,
     "customer_name": "Sam",
     "messages": [
-      { "sender": "agent", "text": "Hello Lisa! What can I help you with today?" },
+      { "sender": "agent", "text": "Hello Sam! What can I help you with today?" },
       { "sender": "customer", "text": "Just wanted to know my current plan details." },
       { "sender": "agent", "text": "Sure, you're on the Silver Plan with 200 Mbps." },
       { "sender": "customer", "text": "Perfect, thanks a lot!" }

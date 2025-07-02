@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/chart"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 
-const COLORS = ["#4ade80", "#facc15", "#f87171"]
+const COLORS = ["#4ade80", "#f87171", "#facc15"]
 
 type EmotionItem = { name: string; value: number }
 type CoversationTableItem = { customer_name: string; emotion: string }
@@ -139,7 +139,7 @@ export default function Dashboard() {
                 <BarChart width={300} height={200} data={complianceScores}>
                   <CartesianGrid strokeDasharray="3 3" />
                   <XAxis dataKey="name" />
-                  <YAxis />
+                  <YAxis allowDecimals={false} />
                   <Tooltip />
                   <Bar dataKey="value" fill="#6366f1" />
                 </BarChart>
@@ -222,7 +222,7 @@ export default function Dashboard() {
                       type="linear"
                       stroke="#6366f1"
                       strokeWidth={2}
-                      dot={false}
+                      dot={true}
                     />
                   </LineChart>
                 </ResponsiveContainer>
@@ -245,19 +245,6 @@ export default function Dashboard() {
               </select>
             </div>
           </div>
-
-          {/* <div className="mb-2 mt-4 flex justify-star"> */}
-          {/*   <select */}
-          {/*     className="border border-gray-300 rounded px-2 py-1 text-sm" */}
-          {/*     value={selectedEmotion} */}
-          {/*     onChange={(e) => setSelectedEmotion(e.target.value)} */}
-          {/*   > */}
-          {/*     <option value="all">All</option> */}
-          {/*     <option value="happy">Happy</option> */}
-          {/*     <option value="neutral">Neutral</option> */}
-          {/*     <option value="angry">Angry</option> */}
-          {/*   </select> */}
-          {/* </div> */}
           <Card className="w-full max-w-4xl">
             <CardHeader>
               <CardTitle>Customer Table</CardTitle>

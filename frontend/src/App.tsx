@@ -1,6 +1,6 @@
 import Dashboard from "@/pages/Dashboard"
 import AppSidebar from "./components/Sidebar"
-import { SidebarInset, SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar"
+import { SidebarProvider } from "@/components/ui/sidebar"
 import { BrowserRouter, Routes, Route } from "react-router";
 import Chats from "./pages/Chats.tsx"
 
@@ -11,9 +11,8 @@ function App() {
         <AppSidebar />
         <BrowserRouter>
           <Routes>
-            <Route path="/home" element={<Dashboard />} />
+            <Route path="/" element={<Dashboard />} />
             <Route path="/chats" element={<Chats />} />
-            {/* <Dashboard /> */}
           </Routes>
         </BrowserRouter>
       </SidebarProvider>

@@ -5,7 +5,7 @@ from core.models import (
     AnalysisResult,
 )
 import json
-from .load_emotions import detect_emotion_from_llm, detect_compliance_from_llm
+from .run_gemini import detect_emotion_from_llm, detect_compliance_from_llm
 import os
 
 
